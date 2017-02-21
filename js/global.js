@@ -12,6 +12,7 @@ class Trailer extends Movie {
 
         // 5. This method will show the button on the screen, no changes necessary
         this.renderButton()
+
     }
 }
 
@@ -24,3 +25,13 @@ var halloweenFilm = new Trailer('Halloween', 'DLEk6hES03Q');
 var fridayThe13th = new Trailer('Friday the 13th', 'WCO4v-pFBns');
 
 var psychoFilm = new Trailer('Psycho', 'Wz719b9QUqY');
+
+
+$(document).ready(function() {
+    $("button").sparkle({
+        color: "#ec96c1",
+        minSize: 2,
+        maxSize: 10,
+        speed: 5
+    });
+})
