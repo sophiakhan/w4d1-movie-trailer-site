@@ -35,3 +35,12 @@ $(document).ready(function() {
         speed: 5
     });
 })
+
+$(document).ready(function() {
+    $("body").sparkle({
+        color: "#ec96c1",
+        minSize: 2,
+        maxSize: 10,
+        speed: 3
+    });
+})
